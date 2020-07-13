@@ -18,7 +18,7 @@ export const TimelineHeader = function (props) {
 export const Timeline = function (props) {
     return (
         <h6 className="text-teal">
-            <i className="margin-right"></i>
+            <i class="fa fa-calendar fa-fw margin-right"></i>
             {props.children}
         </h6>
     );

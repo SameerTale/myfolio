@@ -34,9 +34,48 @@
   color: #61dafb;
 }
 
+h1 {
+	font-size: 36px
+}
+
+h2 {
+	font-size: 30px
+}
+
+h3 {
+	font-size: 24px
+}
+
+h4 {
+	font-size: 20px
+}
+
+h5 {
+	font-size: 18px
+}
+
+h6 {
+	font-size: 16px
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 400;
+	margin: 10px 0
+}
+
 .text-gray,
 .hover-text-gray:hover {
 	color: #757575!important
+}
+
+.light-grey {
+	color: #000!important;
+	background-color: #f1f1f1!important
 }
 
 .padding-16 {
@@ -74,9 +113,15 @@
 	color: #009688!important
 }
 
+.teal,
+.hover-teal:hover {
+	color: #fff!important;
+	background-color: #009688!important
+}
+
 .card{
   margin: 8px;
-	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 .white {
   background-color: White;
@@ -94,11 +139,16 @@
   display: flex;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 510px) {
   .flexContainer {
     flex-wrap: wrap;
   }
   .flex-30 {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .flex-25 {
     width: 100%;
     box-sizing: border-box;
   }
@@ -108,12 +158,18 @@
     box-sizing: border-box;
   }
   
-  .flex-60 {
+  .flex-40 {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .flex-45 {
     width: 100%;
     box-sizing: border-box;
   }
 }
 
+@media screen and (min-width: 510px) {
 .flex-30 {
   width: 30%;
   box-sizing: border-box;
@@ -124,9 +180,24 @@
   box-sizing: border-box;
 }
 
-.flex-60 {
-  width: 60%;
+.flex-25 {
+  width: 25%;
   box-sizing: border-box;
+}
+
+.flex-40 {
+  width: 40%;
+  box-sizing: border-box;
+}
+
+.flex-45 {
+  width: 45%;
+  box-sizing: border-box;
+}
+}
+
+.round-xlarge {
+	border-radius: 16px
 }
 
 .divider {
@@ -135,5 +206,19 @@
     overflow: visible;
     border: 0;
     border-top: 1px solid #eee;
-    margin: 20px 0
+    margin: 20px 0;
+}
+
+.xxlarge {
+	font-size: 1.2em!important;
+}
+
+.small {
+	font-size: 12px!important
+}
+
+.center{
+  text-align: center!important;
+	display: inline-block;
+	width: auto;
 }

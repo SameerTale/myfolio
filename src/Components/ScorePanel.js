@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react';
-import "../App.css";
 import { Container } from "./Containers";
 import { FontAwesomeIcon } from "./IconEntry";
 

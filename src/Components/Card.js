@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react';
-import "../App.css";
 
 export const Divider = function () {
     return (

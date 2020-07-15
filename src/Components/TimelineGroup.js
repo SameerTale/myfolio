@@ -1,5 +1,4 @@
 import React from 'react';
-import "../App.css";
 import {Container} from "./Containers";
 
 const TimelineGroup = function (props) {

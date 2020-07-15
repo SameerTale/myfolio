@@ -82,6 +82,16 @@ section {
 	display: block
 }
 
+a {
+  background-color: transparent;
+  color: inherit
+}
+
+a:active,
+a:hover {
+	outline-width: 0
+}
+
 .text-gray,
 .hover-text-gray:hover {
 	color: #757575!important

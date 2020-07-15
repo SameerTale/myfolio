@@ -1,5 +1,4 @@
 import React from 'react';
-import "../App.css";
 import {Score, ScorePanel} from "./ScorePanel";
 import Card from "./Card";
 import {Intro, IntroLine} from "./Intro";

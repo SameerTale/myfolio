@@ -1,5 +1,4 @@
 import React from 'react';
-import "../App.css";
 
 export const FontAwesomeIcon = function(props) {
     return (

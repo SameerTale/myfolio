@@ -1,11 +1,12 @@
 import React from 'react';
 import "../App.css";
+import {Container} from "./Containers";
 
 const TimelineGroup = function (props) {
     return (
-        <div className="timelineGroup white">
-        {props.children}
-        </div>
+        <Container>
+            {props.children}
+        </Container>
     );
 }
 
@@ -26,7 +27,7 @@ export const Timeline = function (props) {
 
 export const TimelineContent = function (props) {
     return (
-        <p style={{color: "Black"}}>{props.children}</p>
+        <article style={{color: "Black"}}>{props.children}</article>
     );
 }
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import "../App.css";
 
-const FlexContainer = function (props) {
+export const FlexContainer = function (props) {
     return (
         <div className="flexContainer" style={{flexDirection: props.direction ?? "column", ...props.style}}>
             {props.children}
@@ -9,4 +9,10 @@ const FlexContainer = function (props) {
     );
 }
 
-export default FlexContainer;
+export const Container = function (props) {
+    return (
+        <div className="white" style={{...props.style}}>
+            {props.children}
+        </div>
+    );
+}

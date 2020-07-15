@@ -68,6 +68,20 @@ h6 {
 	margin: 10px 0
 }
 
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section {
+	display: block
+}
+
 .text-gray,
 .hover-text-gray:hover {
 	color: #757575!important
@@ -81,6 +95,11 @@ h6 {
 .padding-16 {
 	padding-top: 16px!important;
 	padding-bottom: 16px!important
+}
+
+.opacity,
+.hover-opacity:hover {
+	opacity: 0.60
 }
 
 /* .container:after,
@@ -106,6 +125,11 @@ h6 {
 
 .margin-right {
 	margin-right: 16px!important
+}
+
+.margin-horz {
+  margin-right: 8px!important;
+  margin-right: 8px!important;
 }
 
 .text-teal,

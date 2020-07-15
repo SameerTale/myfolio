@@ -7,14 +7,9 @@ export const Divider = function () {
     );
 }
 
-export const FontAwesomeIcon = function(props) {
-    return (
-        <i className={`fa ${props.iconClass? props.iconClass : ""} fa-fw margin-right xxlarge text-teal`}></i>
-    );
-}
 
 const Card = function (props) {
-    const classes = props.classes ? props.classes + " text-gray padding-16 card white" : "text-gray padding-16 card white";
+    const classes = props.classes ? props.classes + " text-gray card white" : "text-gray card white";
     return (
         <div className={classes} style={{ ...props.style }}>
             {props.heading &&

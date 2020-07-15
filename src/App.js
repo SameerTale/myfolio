@@ -2,9 +2,10 @@ import React from 'react';
 // import logo from './logo.svg';
 import avtar from "./resources/avatar3by2.jpg";
 import './App.css';
-import FlexContainer from "./Components/FlexContainer";
+import {FlexContainer} from "./Components/Containers";
 import Aside from "./Components/Aside";
 import Details from "./Components/Details";
+import {Footer} from "./Components/Footer";
 
 // const list = { items: ["item1", "item2"] };
 
@@ -37,11 +38,12 @@ import Details from "./Components/Details";
 
 function App() {
   return (
-    <div className="App margin-8">
-      <FlexContainer direction="row">
+    <div className="App">
+      <FlexContainer direction="row" style={{margin: "8px"}}>
         <Aside imagePath={avtar} name="Sameer Tale"/>
         <Details />
       </FlexContainer>
+      <Footer />
     </div>
   );
 }
